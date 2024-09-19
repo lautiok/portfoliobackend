@@ -1,0 +1,16 @@
+{
+  "experiencia": [
+    {
+      "title": "Desarrollador Backend Senior",
+      "empresa": "Tech Innovators Inc.",
+      "periodo": "2020 - Actualidad",
+      "descripcion": "Desarrollador Backend Senior en una empresa de tecnología innovadora, enfocada en el desarrollo de soluciones digitales para mejorar la experiencia del usuario en sus productos y servicios."
+    },
+    {
+      "title": "Ingeniero de Software Backend",
+      "empresa": "Data Systems Co.",
+      "periodo": "2017 - 2020",
+      "descripcion": "Ingeniero de Software Backend en una empresa de tecnología innovadora, enfocada en el desarrollo de soluciones digitales para mejorar la experiencia del usuario en sus productos y servicios."
+    }
+  ]
+}

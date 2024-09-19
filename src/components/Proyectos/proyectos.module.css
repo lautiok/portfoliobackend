@@ -1,0 +1,57 @@
+.proyectos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.proyectos h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.proyectosContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.proyectosContainer a {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #0201016c;
+  border-radius: 10px;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+  width: 600px;
+}
+
+.proyectosContainer a:hover {
+  transform: scale(1.01);
+}
+
+.proyectosContainer a h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.proyectosContainer a p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000000a6;
+  margin-bottom: 3rem;
+}
+
+.proyectosContainer a ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.proyectosContainer a li {
+  background-color: rgba(0, 0, 0, 0.041);
+  border-radius: 10px;
+  padding: 0.6rem 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #000000a6;
+}

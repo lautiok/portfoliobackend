@@ -1,0 +1,42 @@
+.experiencia {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.experiencia h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.experienciaContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.experienciaItem {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #0201016c;
+  border-radius: 10px;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+}
+
+.experienciaItem:hover {
+  transform: scale(1.01);
+}
+
+.experienciaItem h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.experienciaItem p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000000a6;
+}

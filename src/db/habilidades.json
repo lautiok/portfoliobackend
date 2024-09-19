@@ -1,0 +1,34 @@
+{
+  "habilidades": [
+    {
+      "title": "Node.js"
+    },
+    {
+      "title": "Java"
+    },
+    {
+      "title": "Express"
+    },
+    {
+      "title": "MongoDB"
+    },
+    {
+      "title": "PostgreSQL"
+    },
+    {
+      "title": "Spring Boot"
+    },
+    {
+      "title": "Python"
+    },
+    {
+      "title": "Django"
+    },
+    {
+      "title": "Redis"
+    },
+    {
+      "title": "AWS"
+    }
+  ]
+}

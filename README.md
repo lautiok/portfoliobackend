@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Plantilla de Portafolio para Desarrolladores Backend
 
-## Getting Started
+Este proyecto es una plantilla de portafolio web dirigido a desarrolladores backend, con el objetivo de ofrecer un recurso gratuito y personalizable para que todos los devs puedan utilizar.
 
-First, run the development server:
+## Installation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+1 - Clona este repositorio:
+
+```
+  git clone https://github.com/lautiok/porfoliobackend.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2 - Instala las dependencias:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3 - Ejecutar:
 
-## Learn More
+```
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Tecnologias usadas en este proyecto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Typescript, ReactJS, Nextjs
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contenido del Proyecto
 
-## Deploy on Vercel
+### Datos del Portafolio
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Los datos que se mostrarán en el portafolio están almacenados en la carpeta `db/data.json`. Aquí puedes modificar toda la información relacionada con tu perfil, proyectos, habilidades y experiencia.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Personalización del Nombre de la Aplicación
+
+Para cambiar el nombre de la aplicación que aparece en las etiquetas meta, puedes modificarlo en el archivo `app/layout.tsx`:
+
+### Ícono de la Aplicación
+
+Si deseas reemplazar el ícono de la aplicación, puedes hacerlo en la ruta src/app/favicon.ico. Asegúrate de respetar el nombre del archivo y la extensión .ico.
+
+### Fuente por Defecto
+
+La fuente predeterminada utilizada en esta plantilla es Poppins, pero puedes cambiarla editando el archivo app/layout.tsx.
+
+### Foto de Perfil
+
+La foto de perfil se encuentra en public/images/avatar.webp. Puedes reemplazarla por la imagen que prefieras, pero asegúrate de mantener la extensión .webp
+
+## Proyectos
+
+Los proyectos se encuentran en db/projects.json y están estructurados de la siguiente manera:
+
+```
+{
+  "projects": [
+    {
+      "title": "API de comercio electrónico",
+      "description": "API RESTful escalable para una plataforma de comercio electrónico",
+      "technologies": ["Node.js", "Express", "MongoDB"],
+      "link": "https://github.com/lautiok/comercio-electrnico-api"
+    }
+  ]
+}
+```
+
+Para agregar o modificar proyectos, simplemente sigue este formato, especificando el título, descripción, tecnologías utilizadas y el enlace al proyecto.
+
+## Habilidades Tecnicas
+
+Las habilidades están en db/habilidades.json y siguen la siguiente estructura:
+
+```
+{
+  "habilidades": [
+    {
+      "title": "Node.js"
+    },
+    {
+      "title": "Java"
+    },
+    {
+      "title": "Express"
+    },
+    {
+      "title": "MongoDB"
+    }
+  ]
+}
+```
+
+Puedes agregar tantas habilidades como desees, respetando el formato del archivo.
+
+## Experiencia
+
+La experiencia laboral se encuentra en db/experiencia.json y tiene el siguiente formato:
+
+```
+{
+  "experiencia": [
+    {
+      "title": "Desarrollador Backend Senior",
+      "empresa": "Tech Innovators Inc.",
+      "periodo": "2020 - Actualidad",
+      "descripcion": "Desarrollador Backend Senior en una empresa de tecnología innovadora, enfocada en el desarrollo de soluciones digitales para mejorar la experiencia del usuario en sus productos y servicios."
+    },
+    {
+      "title": "Ingeniero de Software Backend",
+      "empresa": "Data Systems Co.",
+      "periodo": "2017 - 2020",
+      "descripcion": "Ingeniero de Software Backend en una empresa de tecnología innovadora, enfocada en el desarrollo de soluciones digitales para mejorar la experiencia del usuario en sus productos y servicios."
+    }
+  ]
+}
+```
+
+Aquí puedes modificar el título del puesto, el nombre de la empresa, el período de trabajo y la descripción de tus responsabilidades.
+
+## Contribuciones
+
+Si quieres contribuir a este proyecto, no dudes en hacer un fork y crear un pull request. ¡Toda ayuda es bienvenida!
+
+## Licencia
+
+Este proyecto está licenciado bajo la MIT License. Puedes usar, modificar y distribuir libremente este portafolio.

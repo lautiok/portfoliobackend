@@ -1,0 +1,20 @@
+{
+  "header": {
+    "name": "Nahuel Guerra",
+    "profession": "Desarrollador Backend",
+    "social": [
+      {
+        "name": "Github",
+        "link": "https://github.com/lautiok"
+      },
+      {
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/nahuel_guerra"
+      },
+      {
+        "name": "email",
+        "link": "mailto:nahuelguerra56b@gmail.com"
+      }
+    ]
+  }
+}

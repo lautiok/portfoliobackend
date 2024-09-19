@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "title": "API de comercio electrónico",
+      "description": "API RESTful escalable para una plataforma de comercio electrónico",
+      "technologies": ["Node.js", "Express", "MongoDB"],
+      "link": "https://github.com/lautiok/comercio-electrnico-api"
+    },
+    {
+      "title": "Microservicios de Logística",
+      "description": "Sistema de microservicios para gestión de logística y envíos",
+      "technologies": ["Java", "Spring Boot", "Kafka", "PostgreSQL"],
+      "link": "https://github.com/lautiok/logistica-microservices"
+    },
+    {
+      "title": "Backend de Red Social",
+      "description": "Backend de un sitio web para la red social de la universidad",
+      "technologies": ["Python", "Django", "Redis", "AWS"],
+      "link": "https://github.com/lautiok/red-social-backend"
+    }
+  ]
+}
