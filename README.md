@@ -7,7 +7,7 @@ Este proyecto es una plantilla de portafolio web dirigido a desarrolladores back
 1 - Clona este repositorio:
 
 ```
-  git clone https://github.com/lautiok/porfoliobackend.git
+  git clone https://github.com/lautiok/portfoliobackend.git
 ```
 
 2 - Instala las dependencias:
